@@ -1,0 +1,80 @@
+---
+title: ""
+author: ""
+date: ""
+output: pdf_document
+params:
+  companyname: NA
+  address: NA
+  postcode: NA
+  city: NA
+  country: NA
+  bookingref: NA
+  flightnr: NA
+  flightdate: "2017-01-01"
+  from: "Stockholm"
+  to: "Rio de Janeiro"
+  scheddep: "18:50"
+  length: "10700"
+  delay: "13"
+  name: "Tobias Romar"
+  eu: "Y"
+
+---
+
+
+```{r cal, echo = FALSE}
+
+tab <- data.frame(eu = c("Y", "Y", "N"),
+                  distance = c(1500, 1500, 3500),
+                  late = c(2,4,3),
+                  amount = c(250, 400, 300))
+
+
+t <- as.numeric(params$delay)
+
+
+```
+
+
+
+
+`r params$companyname`  
+`r params$address`  
+`r params$postcode`  
+`r params$city`  
+`r params$country`
+
+&nbsp;
+
+`r t`
+
+Dear Sir or Madam,
+
+**Re: Compensation claim for delayed flight**  
+**Booking reference: `r params$bookingref`**
+
+`r params$m`
+
+I am writing regarding flight `r params$flightnr` on `r params$flightdate` from `r params$from` to `r params$to` with the scheduled departure time of `r params$scheddep`. Due to a delay, I arrived `r params$delay` hours late in `r params$to`. 
+
+The judgment of the Court of Justice of the European Union in Tui & others v CAA confirmed the applicability of compensation for delay as set out in the Sturgeon case. As such, I am seeking compensation under EC Regulation 261/2004 for this delayed flight.
+
+My scheduled flight´s distance was `r params$delay` km therefore I am seeking ???xxx as compensation for the delay.
+
+I look forward to a full response to this letter within 14 days. If I do not receive a satisfactory response I intend to pursue my complaint further, which could mean taking it to court. 
+
+Yours faithfully,    
+
+&nbsp;
+
+&nbsp;
+
+`r params$name`
+
+
+
+
+
+
+

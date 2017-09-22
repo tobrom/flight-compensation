@@ -1,0 +1,53 @@
+body {
+    background-color: #272b30;
+ color: #272b30;
+background-image: url("plane.jpg");
+}
+
+
+
+.well {
+    background-color: #ffffff;
+    border-color: #272b30;
+
+}
+
+.js-irs-0 
+.irs-single, 
+.js-irs-0
+.irs-bar-edge, 
+.js-irs-0
+.irs-bar {
+    background: #666666;
+    border: #272b30;
+  }
+
+.js-irs-1 
+.irs-single, 
+.js-irs-1
+.irs-bar-edge, 
+.js-irs-1
+.irs-bar {
+    background: #666666;
+    border: #272b30;
+  }
+
+.js-irs-2 
+.irs-single, 
+.js-irs-2
+.irs-bar-edge, 
+.js-irs-2
+.irs-bar {
+    background: #666666;
+    border: #272b30;
+  }
+
+.js-irs-3 
+.irs-single, 
+.js-irs-3
+.irs-bar-edge, 
+.js-irs-3
+.irs-bar {
+    background: #666666;
+    border: #272b30;
+  }
